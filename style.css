@@ -1,0 +1,48 @@
+body {
+    font-family:  sans-serif;
+    background-color: #fafafa;
+  }
+
+
+.frase{
+        font-style: sans-serif;
+        display: flex;
+        justify-content: center;
+}
+.passos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 70px;
+    margin: 40px;
+    width: 900px;
+    gap: 70px;
+}
+.numero-1 , .numero-2, .numero-3, .numero-4{
+    font-size: 6em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgb(153, 51, 51), rgb(180, 70, 70), rgb(223, 73, 120));
+    background-clip: text;
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+  border-left: rgb(153, 51, 51);
+}
+
+.linha{
+    height: 5px;
+    background-image: linear-gradient(to bottom, rgb(153, 51, 51), rgb(180, 70, 70), rgb(223, 73, 120));
+}
+.card ,.carro-1 ,.carro-2 ,.carro-3,.carro-4,.carro-5,.carro-6 {
+    height: 70vh;
+    max-width: 330px;
+    border-radius: 30px;
+    padding: 0 25 px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #a62929;
+
+}
